@@ -60,7 +60,7 @@ function App() {
       <Route exact path="/contact" component={Contact} />
       <Route component={NotFound404} />
     </Switch>
-    <FooterBar />
+    {/* <FooterBar /> */}
     </>
   );
 }

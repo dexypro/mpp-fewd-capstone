@@ -12,7 +12,7 @@ const About = () => {
       <header className="masthead d-flex add-shadows">
         <div className="container text-center my-auto">
           <h1 className="mb-1 about-title-color">Grocery Cloud</h1>
-          <h3 className="mb-5 about-title-color">
+          <h3 className="mb-5 about-title-color mt-1">
             <em>The sun always shines above the clouds.</em>
           </h3>
           <Link to="/shopping">

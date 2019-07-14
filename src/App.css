@@ -351,6 +351,14 @@ h6 {
   text-align: center;
 }
 
+.card {
+  border: none!important;
+}
+
+.card-footer {
+  border: none!important;
+}
+
 .footer a {
   color: yellow;
   text-decoration: none;

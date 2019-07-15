@@ -66,27 +66,25 @@ export default class Home extends Component {
         </div>
 
         <footer className="page-footer font-small unique-color-dark pt-4">
-          {/* Footer Elements */}
           <div className="container">
-            {/* Call to action */}
             <ul className="list-unstyled list-inline text-center py-2">
-              <li className="list-inline-item">
-                <h5 className="mb-1">Register for free</h5>
+              <li>
+                <span>made by</span>
               </li>
-              <li className="list-inline-item">
-                <a href="#!" className="btn btn-outline-white btn-rounded">
-                  Sign up!
-                </a>
-              </li>
+              <a href="https://www.linkedin.com/in/dejanbajovic/">
+                <li className="list-inline-item">
+                  <h6 className="mb-1 yellow hover-orange">Dejan Bajović</h6>
+                </li>
+                <li className="list-inline-item yellow">
+                  <FaLinkedin />
+                </li>
+              </a>
             </ul>
-            {/* Call to action */}
           </div>
           <div className="copyright">
-          © {new Date().getFullYear()} Grocery Cloud. All Rights Reserved
-        </div>
+            © {new Date().getFullYear()} Grocery Cloud. All Rights Reserved
+          </div>
         </footer>
-
-        
       </>
     );
   }

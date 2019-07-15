@@ -553,3 +553,11 @@ h6 {
 .unique-color-dark {
   background-color:#16171b!important;
 }
+
+.yellow {
+  color: yellow!important;
+}
+
+.hover-orange:hover {
+  color: orange!important;
+}

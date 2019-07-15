@@ -45,7 +45,15 @@ class ProductProvider extends Component {
           products[10],
           products[85],
           products[48],
-          products[2]
+          products[2],
+          products[25],
+          products[69],
+          products[24],
+          products[26],
+          products[68],
+          products[77],
+          products[79],
+          products[83]
         ];
         this.setState({
           products,

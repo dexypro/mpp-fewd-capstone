@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <>
       <About />
-      <Carousel />
       <div className="copyright">
         © {new Date().getFullYear()} Grocery Cloud. All Rights Reserved
       </div>

@@ -57,7 +57,7 @@ function App() {
         rubric62
         The contact page is accessible at http://localhost:8080/contact 
       */}
-      <Route exact path="/contact" component={Contact} />
+      {/* <Route exact path="/contact" component={Contact} /> */}
       <Route component={NotFound404} />
     </Switch>
     {/* <FooterBar /> */}

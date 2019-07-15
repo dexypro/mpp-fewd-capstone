@@ -36,7 +36,7 @@ class ProductProvider extends Component {
         .then(res => res.json())
         .then(json => {
             let products = this.formatData(json);
-            let categoryNames = json.map(name => name.category);
+            let categoryNames = json.map(item => item.category);
             let featuredProducts = [products[70], products[24], products[72], products[10], products[85], products[48]];
             this.setState({
                 products,
@@ -78,7 +78,7 @@ class ProductProvider extends Component {
 
 
     formatData(items) {
-        $("#carouselExampleIndicators").carousel(`pause`);
+        // $("#carouselExampleIndicators").carousel(`pause`);
         let productsArray = [];
         let subcategoriesArray = [];
         items.map(item => {

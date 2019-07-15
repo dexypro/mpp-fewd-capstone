@@ -16,7 +16,7 @@ const About = () => {
             <em>The sun always shines above the clouds.</em>
           </h3>
           <Link to="/shopping">
-            <button type="button" className="btn btn-primary">
+            <button type="button" className="btn btn-lg btn-info">
               Shop
             </button>
           </Link>
@@ -88,3 +88,6 @@ const About = () => {
 };
 
 export default About;
+
+
+

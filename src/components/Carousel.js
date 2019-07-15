@@ -12,12 +12,7 @@ export default class Carousel extends Component {
       return <SingleProductImg key={product.name} product={product} />
   })
     return (
-      /* 
-        rubric01
-        The user should see a product carousel that contains at least 3
-        slides of products, with each slide having between 1 and 4
-        product images.   
-      */
+      <>
       <div id="carouselExampleIndicators" className="carousel slide couraselFix container"  data-ride="carousel">
         <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -83,6 +78,7 @@ export default class Carousel extends Component {
             <span className="sr-only">Next</span>
         </a>
       </div>
+      </>
     )
   }
 }

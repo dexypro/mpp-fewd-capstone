@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Back from "../../components/BackButton";
 
 export default function CartTotals({ value }) {
   const {
@@ -48,52 +49,6 @@ export default function CartTotals({ value }) {
               <strong id="totalCost">$ {cartTotal}</strong>
             </h5>
           </div>
-          {/* <div className="col-10 mx-auto col-lg-6 text-center mt-sm-5 mb-sm-5">
-            <h4 className="text-center">Enter Shipping Details</h4>
-            <form id="checkoutForm" onSubmit={onSubmitCheckout}>
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control w-75"
-                  id="name"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control w-75"
-                  id="address"
-                  placeholder="Address"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control w-75"
-                  id="city"
-                  placeholder="City"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="tel"
-                  className="form-control w-75"
-                  name="phone"
-                  id="phone"
-                  placeholder="Phone Number"
-                  required
-                />
-              </div>
-
-              <button type="submit" className="btn btn-primary w-50">
-                Checkout
-              </button>
-            </form>
-          </div> */}
         </div>
       </div>
     </>

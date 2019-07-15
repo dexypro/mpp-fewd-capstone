@@ -549,3 +549,7 @@ h6 {
   width: 255px!important;
   height: 255px!important;
 }
+
+.unique-color-dark {
+  background-color:#16171b!important;
+}

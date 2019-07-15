@@ -4,6 +4,7 @@ import { ProductContext } from '../context';
 import Back from '../components/BackButton';
 import {FaSearch} from 'react-icons/fa';
 import QtyInput from '../components/QtyInput';
+import JustBtn from '../components/JustBtn';
 
 export default class Product extends Component {
     constructor(props){
@@ -15,8 +16,9 @@ export default class Product extends Component {
     }
     static contextType = ProductContext;
     // componentDidMount(){}
+    
     render() {
-        const { getProduct, addToCart } = this.context;
+        const { getProduct, addToCart, filterProducts } = this.context;
         const product = getProduct(this.state.name);
         if(!product){
             return (
@@ -103,6 +105,8 @@ export default class Product extends Component {
                                 The user should see a button labeled “Add”
                             */}
                             <button className="btn btn-lg btn-outline-primary" onClick={() => addToCart(id)}>Add</button>
+                            <JustBtn text="Shop All" linkTo="/shopping" shop={filterProducts} />
+                            <JustBtn text="Cart" linkTo="/cart" shop=""/>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ export default class Carousel extends Component {
   })
     return (
       <>
-      <div id="carouselExampleIndicators" className="carousel slide couraselFix container"  data-ride="carousel">
+      <div id="carouselExampleIndicators" className="carouselz slide couraselFix container"  data-ride="carousel">
         <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

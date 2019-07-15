@@ -29,7 +29,6 @@ const About = () => {
       >
         <div className="container">
           <div className="content-section-heading">
-            
             <h2 className="mb-5">Freshness Is Guaranteed</h2>
           </div>
           <div className="row">
@@ -88,6 +87,3 @@ const About = () => {
 };
 
 export default About;
-
-
-

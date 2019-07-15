@@ -314,8 +314,8 @@ h6 {
 .couraselFix {
   text-align: center;
   margin: auto;
-  width:80%;
-  max-width: 80vw; 
+  width:100%;
+  max-width: 90vw; 
   height: auto;
   max-height: 666px;
   bottom: 50px;
@@ -529,3 +529,18 @@ h6 {
   position:relative; */
 }
 
+.mt-10 {
+  margin-top: 10px!important;
+}
+
+.gray {
+  color: darkgray;
+}
+
+.orange {
+  color: darkgoldenrod;
+}
+
+#carouselExampleSlidesOnly {
+  border: none!important;
+}

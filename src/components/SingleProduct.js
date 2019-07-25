@@ -10,7 +10,7 @@ export default function SingleProduct({product}) {
     const { addToCart } = context;
     const { id, name, price } = product;
     return (
-        <div className="col-9 col-md-6 col-lg-3 my-3 d-inline-flex">
+        <div className="col-9 col-md-6 col-lg-3 my-3 d-flex justify-content-around">
             <div className="card">
                 <div className="img-container">
                     {/* 
